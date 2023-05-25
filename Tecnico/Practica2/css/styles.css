@@ -27,6 +27,7 @@ form > label{
 
 ul{
     text-align: center;
+    list-style: none;
 }
 ul > label{
     font-family: 'Nunito Sans', sans-serif;
@@ -45,6 +46,23 @@ button{
     margin-top: 10px;
     margin-left: 200px;
 
+}
+
+a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+a:visited{
+color: black;    
+}
+
+a:hover{
+    color: cadetblue;
+}
+
+img{
+    width: 55px;
 }
 
 
@@ -73,6 +91,10 @@ button{
 .rooms-list{
     max-width: 10vw;
     padding: 0;
+}
+
+.socials{
+    display: block;
 }
 
 
