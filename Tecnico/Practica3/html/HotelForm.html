@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Tecnico/Practica3/css/normalize.css">
+    <link rel="stylesheet" href="/Tecnico/Practica3/css/formStyle.css">
+    <script src="/Tecnico/Practica3/js/verification.js" defer></script>
+    <link rel="icon" href="/Tecnico/Practica2/images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Hotel Form</title>
+</head>
+<body>
+    <div class="animate__animated animate__backInRight">
+        <h1>Formulario de reservacion</h1>
+        <form name="reservation-form" onsubmit="return validateForm()">
+            <h2>Datos personales</h2>
+            <label for="name" class="input-label" required >Nombre</label>
+            <input type="text" id="name" placeholder="Ingrese su nombre" class="text-input">
+            <label for="lname" class="input-label">Apellidos</label>
+            <input type="text" id="lname" placeholder="Ingrese su apellido" class="text-input">
+            <h2>Detalles de la reservacion</h2>
+            <label for="occupants" class="input-label">Acompañantes</label>
+            <input type="number" id="occupants" class="text-input" min="0" max="5" value="0">
+            <label for="kids" class="input-label">Niños</label>
+            <input type="checkbox" id="kids" class="click-input">
+            <label for="pets" class="input-label">Mascotas</label>
+            <input type="checkbox" id="pets" class="click-input" >
+            <label for="entrance" class="input-label">Fecha de entrada</label>
+            <input type="date" id="entrance" class="text-input" >
+            <label for="exit" class="input-label">Fecha de salida</label>
+            <input type="date" id="exit" class="text-input" >
+            <h2>Tipo de Cuarto</h2>
+            <ul>
+                <label for="room1">Luna de miel</label>
+                <input type="radio" id="room1" name="rooms" class="click-input" >
+                <label for="room2">Cuarto familiar</label>
+                <input type="radio" id="room2" name="rooms"class="click-input" >
+                <label for="room3">Cuarto economico</label>
+                <input type="radio" id="room3" name="rooms"class="click-input" >
+
+            </ul>
+
+            <h2>Opciones para luna de miel</h2>
+            <ul>
+                <label for="room1">Extra 1</label>
+                <input type="checkbox" id="room1" class="click-input" >
+                <label for="room2">Extra 2</label>
+                <input type="checkbox" id="room2" class="click-input" >
+                <label for="room3">Extra 3</label>
+                <input type="checkbox" id="room3" class="click-input" >
+            </ul>
+
+            <button type="submit" value="Submit">Realizar reservacion</button>
+    </div>
+</body>
+</html>

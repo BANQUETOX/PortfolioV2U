@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="/Tecnico/Practica3/images/icon.png">
+    <link rel="stylesheet" href="/Tecnico/Practica3/css/normalize.css">
+    <link rel="stylesheet" href="/Tecnico/Practica3/css/mainStyle.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="/Tecnico/Practica3/node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="/Tecnico/Practica3/js/changeFrame.js"></script>
+    <title>Hotel Ryo</title>
+</head>
+<body>
+
+  
+  <div class="nav-bar border-bottom">
+    <div class="text-start">
+      <div class="row">
+        <div class="col">
+          <div class="nav-logo-text">
+            <img src="/Tecnico/Practica3/images/icon.png" alt="Hotel logo"class="nav-logo">
+           Hotel Ryo
+          </div>
+        </div>
+        <div class="col col-nav">
+          <ul class="nav justify-content-start">
+            <li class="nav-item">
+              <button class="nav-link" aria-current="page" id="home" onclick="changeToHome()">Inicio</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" onclick="changeToAboutUs()">Acerca de nosotros</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" onclick="changeToForm()">Registro</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link" onclick="changeToContact()">Contacto</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <iframe src="/Tecnico/Practica3/html/HotelHome.html" frameborder="0" id="frame"></iframe>
+
+  <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="#" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <img src="/Tecnico/Practica3/images/icon.png" alt="Hotel icon" class="footer-image">
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Hotel Ryo, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="#"><img src="/Tecnico/Practica3/images/twitter.png" alt="twitter link" class="footer-image"></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><img src="/Tecnico/Practica3/images/instagram.png" alt="instagram link" class="footer-image"></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="#"><img src="/Tecnico/Practica3/images/facebook.png" alt="facebook link" class="footer-image"></a></li>
+    </ul>
+  </footer>
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,106 @@
+h1{
+    margin-left: 50px;
+}
+h1,h2{
+    margin-top: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+}
+
+
+form{
+    margin-left: 35vw;
+    text-align: left;
+    border: 5px cadetblue solid;
+    max-width: 30vw;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form > label{
+    margin-top: 10px;
+} 
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+ul > label{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+ul>input{
+    margin-right: 40px;
+}
+button{
+    font-family: 'Nunito Sans', sans-serif;padding: 12px 40px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgb(131, 131, 219) ;
+    border: 1px solid gray;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 200px;
+
+}
+
+a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+a:visited{
+color: black;    
+}
+
+a:hover{
+    color: cadetblue;
+}
+
+img{
+    width: 55px;
+}
+
+
+
+.input-label{
+    display: block;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+.text-input{
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 5px ;
+    border: 1px solid #918383;
+    outline: none;
+    font-size: 18px;
+}
+
+.click-input{
+    transform: scale(1.4);
+}
+
+.rooms-list{
+    max-width: 10vw;
+    padding: 0;
+}
+
+.socials{
+    display: block;
+}
+
+
+.text-input:focus{
+    box-shadow: 1px 2px 1px 2px rgb(204, 204, 204);
+
+}
+
+button:hover{
+    background-color: cadetblue;
+    color: rgb(246, 244, 248);
+   }
