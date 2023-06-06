@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paragraph{
+    @apply text-lg mr-5 mb-5 ml-4 font-sans
+}
+.button{
+    @apply  text-white p-2 rounded hover:bg-black
+}
+
+.image{
+    @apply mt-5 w-11/12 m-auto mb-4 lg:max-w-3xl
+}
+
+.last-new{
+    @apply ml-1 pl-2 pt-3 pb-3 border-solid border-b-2 border-gray-600 w-auto max-w-xs
+}
