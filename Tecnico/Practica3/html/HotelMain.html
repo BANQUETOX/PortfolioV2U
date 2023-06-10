@@ -18,33 +18,28 @@
 <body>
 
   
-  <div class="nav-bar border-bottom">
-    <div class="text-start">
-      <div class="row">
-        <div class="col">
-          <div class="nav-logo-text">
-            <img src="/Tecnico/Practica3/images/icon.png" alt="Hotel logo"class="nav-logo">
-           Hotel Ryo
-          </div>
-        </div>
-        <div class="col col-nav">
-          <ul class="nav justify-content-start">
-            <li class="nav-item">
-              <button class="nav-link" aria-current="page" id="home" onclick="changeToHome()">Inicio</button>
-            </li>
-            <li class="nav-item">
-              <button class="nav-link" onclick="changeToAboutUs()">Acerca de nosotros</button>
-            </li>
-            <li class="nav-item">
-              <button class="nav-link" onclick="changeToForm()">Registro</button>
-            </li>
-            <li class="nav-item">
-              <button class="nav-link" onclick="changeToContact()">Contacto</button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none nav-logo-text">
+        <img src="/Tecnico/Practica3/images/icon.png" class="bi me-2" width="50" height="50" alt="">
+        <span class="fs-4">Hotel Ryo</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+            <button class="nav-link" aria-current="page" id="home" onclick="changeToHome()">Inicio</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" onclick="changeToAboutUs()">Acerca de nosotros</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" onclick="changeToForm()">Registro</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" onclick="changeToContact()">Contacto</button>
+          </li>
+      </ul>
+    </header>
   </div>
 
   <iframe src="/Tecnico/Practica3/html/HotelHome.html" frameborder="0" id="frame"></iframe>
