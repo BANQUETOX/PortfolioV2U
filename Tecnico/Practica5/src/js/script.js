@@ -1,0 +1,1 @@
+// reload, check inputs, Regular expressions, double password
