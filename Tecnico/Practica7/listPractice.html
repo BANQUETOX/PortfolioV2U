@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>List exercice</title>
+    <link rel="stylesheet" href="Skeleton-2.0.4/css/skeleton.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+        <p>Practica listas</p>
+    </header>
+
+    <div class="inputs">
+        <form action="" onsubmit="return addElement()" id="form">
+            <label for="element">Ingrese su elemento</label>
+        <input type="text" class="lol" id= "element">
+
+        <p>Posicion</p>
+
+        <ul>
+            <li>
+            <label for="position-start">Inicio</label>
+            <input type="radio" class=" radio position-start" name="radio" id="position-start" value="start">
+            </li>
+            <li>
+                <label for="position-final">Final</label>
+                <input type="radio" class="radio position-final" name="radio" id="position-final" value="final">
+            </li>
+        </ul>
+
+        <button class="button">Submit</button>
+
+
+        </form>
+        
+
+        <label for="list">Ingrese el tamanio del la lista</label>
+        <input type="text" class=" lol" id="list">
+    </div>
+    <div class="elements">
+        <ul class="inputs" id="elementList" >
+            <li>Elementos</li>
+        </ul>
+
+    </div>
+
+  
+
+  </body>
+</html>
