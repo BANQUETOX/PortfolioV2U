@@ -1,6 +1,7 @@
 let inputElements = []
 let elements = []
 let form = document.getElementById("form")
+let listLenght = document.getElementById("list-lenght")
 function addElement(){
     let input = document.getElementById("element").value
     let radioStar = document.getElementById("position-start")
@@ -20,8 +21,10 @@ function addElement(){
     elements.forEach(element => {
         document.getElementById("elementList").appendChild(element)
     });
+    listLenght.textContent = "Tamanio text:  " + elements.length
     console.log(inputElements)
 }
+
 
 
 
